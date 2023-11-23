@@ -17,18 +17,5 @@ public class TestClass {
         System.out.println("I am living at " + addressOfPerson);
         System.out.println("Do you kow, " + randomfact);
 
-
-
-//        System.out.println(Faker.instance().animal().name());
-//        System.out.println(Faker.instance().address().fullAddress());
-//        System.out.println(Faker.instance().date().birthday(16, 20).toString());
-//        System.out.println("This is getTime:");
-//        Object time = Faker.instance().date().birthday().getTime();
-//        System.out.println("This is data type" + time.getClass().getName());
-//        System.out.println();
-//        System.out.println(Faker.instance().date().hashCode());
-//        System.out.println(Faker.instance().chuckNorris().fact());
-//        System.out.println(Faker.instance().beer());
-
     }
 }
