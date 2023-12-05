@@ -1,5 +1,4 @@
 import com.github.javafaker.Faker;
-import com.github.javafaker.service.FakerIDN;
 
 
 
@@ -16,6 +15,15 @@ public class TestClass {
         System.out.println("was born at " + ageOfPerson);
         System.out.println("I am living at " + addressOfPerson);
         System.out.println("Do you kow, " + randomfact);
+
+
+        int num = 123;
+        long long1 = num;
+
+        // char = unicode
+        char char1 = '@';
+        //
+
 
     }
 }
