@@ -1,0 +1,14 @@
+Index: src/test/java/TestClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import com.github.javafaker.Faker;\nimport com.github.javafaker.service.FakerIDN;\n\n\n\npublic class TestClass {\n    public static void main(String[] args) {\n        Object InitPhrases = (\"Aloha World\");\n        Object nameOfPerson = Faker.instance().animal().name();\n        Object ageOfPerson = Faker.instance().date().birthday(16, 20).toString();\n        Object addressOfPerson = Faker.instance().address().fullAddress();\n        Object randomfact = Faker.instance().chuckNorris().fact();\n\n        System.out.println(InitPhrases);\n        System.out.println(\"My name is \" + nameOfPerson);\n        System.out.println(\"was born at \" + ageOfPerson);\n        System.out.println(\"I am living at \" + addressOfPerson);\n        System.out.println(\"Do you kow, \" + randomfact);\n\n\n\n//        System.out.println(Faker.instance().animal().name());\n//        System.out.println(Faker.instance().address().fullAddress());\n//        System.out.println(Faker.instance().date().birthday(16, 20).toString());\n//        System.out.println(\"This is getTime:\");\n//        Object time = Faker.instance().date().birthday().getTime();\n//        System.out.println(\"This is data type\" + time.getClass().getName());\n//        System.out.println();\n//        System.out.println(Faker.instance().date().hashCode());\n//        System.out.println(Faker.instance().chuckNorris().fact());\n//        System.out.println(Faker.instance().beer());\n\n    }\n}\n
+===================================================================
+diff --git a/src/test/java/TestClass.java b/src/test/java/TestClass.java
+--- a/src/test/java/TestClass.java	
++++ b/src/test/java/TestClass.java	
+@@ -1,5 +1,4 @@
+ import com.github.javafaker.Faker;
+-import com.github.javafaker.service.FakerIDN;
+ 
+ 
+ 

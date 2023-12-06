@@ -1,0 +1,17 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>groupId</groupId>\n    <artifactId>Test_automation_school_r1</artifactId>\n    <version>1.0-SNAPSHOT</version>\n    <properties>\n        <maven.compiler.source>17.0.9-amzn</maven.compiler.source>\n        <maven.compiler.target>17.0.9-amzn</maven.compiler.target>\n    </properties>\n    <dependencies>\n        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->\n        <dependency>\n            <groupId>com.github.javafaker</groupId>\n            <artifactId>javafaker</artifactId>\n            <version>1.0.2</version>\n        </dependency>\n\n    </dependencies>\n    \n</project>
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -12,7 +12,7 @@
+         <maven.compiler.target>17.0.9-amzn</maven.compiler.target>
+     </properties>
+     <dependencies>
+-        <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
++
+         <dependency>
+             <groupId>com.github.javafaker</groupId>
+             <artifactId>javafaker</artifactId>
