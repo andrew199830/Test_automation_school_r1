@@ -15,14 +15,14 @@ package Lesson3;
         }
 
         // Метод обрахунку комісії
-        private double calculateCommission(double amountInUsd) {
-            return (amountInUsd * commission) / 100;  // Переводимо комісію з відсотків в десятковий формат (1% = 0.01)
+        private double calculateCommission(double amountInUah) {
+            return (amountInUah * commission) / 100;  // Переводимо комісію з відсотків в десятковий формат (1% = 0.01)
         }
 
         // Метод обрахунку суми до виплати
         public double calculateTotalAmount(double amountInUsd) {
             double amountInUah = convertUsdToUah(amountInUsd);
-            double commissionAmount = calculateCommission(amountInUsd);
+            double commissionAmount = calculateCommission(amountInUah);
             return amountInUah - commissionAmount;
         }
     }
