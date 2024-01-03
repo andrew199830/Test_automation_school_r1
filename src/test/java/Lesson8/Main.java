@@ -1,4 +1,4 @@
-package Lesson7;
+package Lesson8;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -14,8 +14,10 @@ public class Main {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("Handled");
-
+            throw new RuntimeException("Error when try to reading file", e);
         }
+
+        System.out.println("Continue");
     }
 }
 
