@@ -16,8 +16,6 @@ public class Main {
             System.out.println("Handled");
             throw new RuntimeException("Error when try to reading file", e);
         }
-
-        System.out.println("Continue");
     }
 }
 
