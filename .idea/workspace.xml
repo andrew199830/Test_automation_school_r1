@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c08f756-5fd7-45e6-b96c-b68433b14efa" name="Changes" comment="Homework 7 create generics for 2 obj and response with this obj">
+    <list default="true" id="9c08f756-5fd7-45e6-b96c-b68433b14efa" name="Changes" comment="Homework 8 Exception2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson9/Fibinacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson8/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework5" />
+        <entry key="$PROJECT_DIR$" value="Homework7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,14 +58,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Fibinacci.executor": "Run",
     "Application.Lesson7.Main.executor": "Run",
     "Application.Lesson7_Homework.Main.executor": "Run",
+    "Application.Lesson8.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Sorting.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Homework7",
+    "git-widget-placeholder": "Homework9",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/andrew_work/Projects/Test_automation_school_r1/src/test/java/Lesson7",
     "project.structure.last.edited": "Project",
@@ -86,13 +88,13 @@
       <recent name="Lesson7_Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson7.Main">
-    <configuration name="Lesson5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson5.Main" />
+  <component name="RunManager" selected="Application.Fibinacci">
+    <configuration name="Fibinacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson9.Fibinacci" />
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson5.*" />
+          <option name="PATTERN" value="Lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson3.Main" />
+    <configuration name="Lesson8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.Main" />
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibinacci" />
+        <item itemvalue="Application.Lesson8.Main" />
         <item itemvalue="Application.Lesson7.Main" />
         <item itemvalue="Application.Lesson7_Homework.Main" />
         <item itemvalue="Application.Sorting" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lesson5.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703797471993</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Homework 8 Exception">
+      <option name="closed" value="true" />
+      <created>1704296357254</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704296357254</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Homework 8 Exception2">
+      <option name="closed" value="true" />
+      <created>1704299906861</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704299906861</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -277,7 +295,9 @@
     <MESSAGE value="Homework 4" />
     <MESSAGE value="Homework 5 Fractal Comparator" />
     <MESSAGE value="Homework 7 create generics for 2 obj and response with this obj" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 7 create generics for 2 obj and response with this obj" />
+    <MESSAGE value="Homework 8 Exception" />
+    <MESSAGE value="Homework 8 Exception2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 8 Exception2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
