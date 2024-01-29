@@ -1,0 +1,9 @@
+name: Check style
+
+on: pull_request
+
+jobs:
+    check-style:
+      runs-on: ubuntu-latest
+      steps:
+        -users:
