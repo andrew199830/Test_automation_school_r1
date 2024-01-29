@@ -11,6 +11,13 @@ on:
 jobs:
   run-test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        platform: [mobile, desktop]
+        os: [ubuntu, macOS]
+        connectivity: [3g, 4g]
     steps:
-      - run: echo "All test passed"
+      - name: ${{matrix.platform}} ${{matrix.os}}
+        run: echo "All test passed"
+
 
