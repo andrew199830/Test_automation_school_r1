@@ -1,0 +1,16 @@
+name: Run test
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Build App
+    types:
+      - completed
+
+jobs:
+  run-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "All test passed"
+
