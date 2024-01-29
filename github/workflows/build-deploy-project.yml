@@ -6,8 +6,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "build is success"
+      - name: Info
+        run: echo "build is success"
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The app i s deployed"
+      - name: Info
+        run: echo "The app i s deployed"
