@@ -1,0 +1,24 @@
+name: Run test
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - Build App
+    types:
+      - completed
+
+jobs:
+  run-test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [mobile, desktop]
+        os: [ubuntu, macOS]
+        connectivity: [3g, 4g]
+    steps:
+      - name: ${{matrix.platform}} ${{matrix.os}} ${{github.base_ref}}
+        run: echo "All test passed"
+
+

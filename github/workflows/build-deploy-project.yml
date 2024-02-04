@@ -1,0 +1,16 @@
+name: Build app
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run: echo "build is success"
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run: echo "The app i s deployed"
