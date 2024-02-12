@@ -5,8 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c08f756-5fd7-45e6-b96c-b68433b14efa" name="Changes" comment="Git workflow add">
-      <change afterPath="$PROJECT_DIR$/github/workflows/run-test-on0pull-request.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/TranslatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/imdbTop100Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TranslatePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/imdbPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/Painter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/Sorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/Fraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Cup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Generics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Astrologer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson9/Fibinacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +48,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework7" />
+        <entry key="$PROJECT_DIR$" value="Apium" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,27 +81,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Fibinacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson7.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson7_Homework.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lesson8.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sorting.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Bash&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/andrew_work/Projects/Test_automation_school_r1/src/test/java/Lesson7&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Fibinacci.executor": "Run",
+    "Application.Lesson7.Main.executor": "Run",
+    "Application.Lesson7_Homework.Main.executor": "Run",
+    "Application.Lesson8.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Sorting.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Simpletest.executor": "Run",
+    "TestNG.Simpletest.myFirstTest.executor": "Run",
+    "TestNG.TestClass.Test.executor": "Run",
+    "TestNG.TranslatorTest.executor": "Run",
+    "TestNG.TranslatorTest.testTranslation.executor": "Run",
+    "TestNG.imdbTop100Test.executor": "Run",
+    "TestNG.imdbTop100Test.filmstest.executor": "Debug",
+    "TestNG.imdbTop100Test.imdbTop100ChartTest.executor": "Run",
+    "git-widget-placeholder": "Homework10",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/andrew_work/Projects/Test_automation_school_r1/src/test/java/Lesson7",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/Lesson7" />
@@ -88,88 +121,104 @@
       <recent name="Lesson7_Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibinacci">
-    <configuration name="Fibinacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson9.Fibinacci" />
+  <component name="RunManager" selected="TestNG.imdbTop100Test.filmstest">
+    <configuration name="TestClass.Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson9.*" />
+          <option name="PATTERN" value="HomeworkTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkTestNG" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkTestNG.TestClass" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson7_Homework.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson7_Homework.Main" />
+    <configuration name="TranslatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson7_Homework.*" />
+          <option name="PATTERN" value="HomeworkTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkTestNG" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkTestNG.TranslatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson7.Main" />
+    <configuration name="imdbTop100Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson7.*" />
+          <option name="PATTERN" value="HomeworkTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkTestNG" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkTestNG.imdbTop100Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.Main" />
+    <configuration name="imdbTop100Test.filmstest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson8.*" />
+          <option name="PATTERN" value="HomeworkTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkTestNG" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkTestNG.imdbTop100Test" />
+      <option name="METHOD_NAME" value="filmstest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.Sorting" />
+    <configuration name="imdbTop100Test.imdbTop100ChartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson4.*" />
+          <option name="PATTERN" value="HomeworkTestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HomeworkTestNG" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkTestNG.imdbTop100Test" />
+      <option name="METHOD_NAME" value="imdbTop100ChartTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fibinacci" />
-        <item itemvalue="Application.Lesson8.Main" />
-        <item itemvalue="Application.Lesson7.Main" />
-        <item itemvalue="Application.Lesson7_Homework.Main" />
-        <item itemvalue="Application.Sorting" />
+        <item itemvalue="TestNG.imdbTop100Test.filmstest" />
+        <item itemvalue="TestNG.imdbTop100Test.imdbTop100ChartTest" />
+        <item itemvalue="TestNG.imdbTop100Test" />
+        <item itemvalue="TestNG.TestClass.Test" />
+        <item itemvalue="TestNG.TranslatorTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-203781b8" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -308,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706550554897</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Git workflow add">
+      <option name="closed" value="true" />
+      <created>1707071315322</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707071315322</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -344,9 +401,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestClass.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/test/java/HomeworkTestNG/imdbTop100Test.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
