@@ -4,34 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c08f756-5fd7-45e6-b96c-b68433b14efa" name="Changes" comment="Git workflow add">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/TranslatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/imdbTop100Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TranslatePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/imdbPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbService.java" afterDir="false" />
+    <list default="true" id="9c08f756-5fd7-45e6-b96c-b68433b14efa" name="Changes" comment="Final Homework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/Browser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/CurrencyConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/Painter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson4/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/Fraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Box.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Cup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Generics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson6/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Article.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Astrologer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson7_Homework/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson8/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson9/Fibinacci.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/TranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/TranslatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/imdbTop100Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkTestNG/imdbTop100Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/imdbPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/imdbPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/imdb/ImdbApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/imdb/ImdbApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +77,7 @@
     "TestNG.TranslatorTest.executor": "Run",
     "TestNG.TranslatorTest.testTranslation.executor": "Run",
     "TestNG.imdbTop100Test.executor": "Run",
-    "TestNG.imdbTop100Test.filmstest.executor": "Debug",
+    "TestNG.imdbTop100Test.filmstest.executor": "Run",
     "TestNG.imdbTop100Test.imdbTop100ChartTest.executor": "Run",
     "git-widget-placeholder": "Homework10",
     "kotlin-language-version-configured": "true",
@@ -121,7 +100,7 @@
       <recent name="Lesson7_Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.imdbTop100Test.filmstest">
+  <component name="RunManager" selected="TestNG.TranslatorTest.testTranslation">
     <configuration name="TestClass.Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
@@ -140,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TranslatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TranslatorTest.testTranslation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test_automation_school_r1" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +129,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="HomeworkTestNG" />
       <option name="MAIN_CLASS_NAME" value="HomeworkTestNG.TranslatorTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testTranslation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TranslatorTest.testTranslation" />
         <item itemvalue="TestNG.imdbTop100Test.filmstest" />
         <item itemvalue="TestNG.imdbTop100Test.imdbTop100ChartTest" />
         <item itemvalue="TestNG.imdbTop100Test" />
         <item itemvalue="TestNG.TestClass.Test" />
-        <item itemvalue="TestNG.TranslatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707071315322</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Git workflow add">
+      <option name="closed" value="true" />
+      <created>1707703002928</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707703002928</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -395,18 +383,15 @@
     <MESSAGE value="Homework 8 Exception" />
     <MESSAGE value="Homework 8 Exception2" />
     <MESSAGE value="Git workflow add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git workflow add" />
+    <MESSAGE value="Final Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Homework" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HomeworkTestNG/imdbTop100Test.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="((SelenideElementProxy)this.h).webElementSource" custom="java.lang.reflect.Proxy,com.codeborne.selenide.impl.SelenideElementProxy" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

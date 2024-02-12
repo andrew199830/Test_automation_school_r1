@@ -43,11 +43,9 @@ public class imdbTop100Test {
     @Test(dataProvider = "filmData")
     public void filmstest(String TestName, String TestLink, String TestRating, String TestYear) {
         Selenide.open(TestLink);
-//        imdbPages.Rating.exists(); //.shouldHave(text(TestRating));
-        imdbPages.Year.exists(); //.shouldHave(text(TestRating));
-        imdbPages.Name.exists(); //.shouldHave(text(TestName));
-
-
+        imdbPages.Rating.shouldHave(text(TestRating));
+        imdbPages.Year.shouldHave(text(TestYear));
+        imdbPages.Name.shouldHave(text(TestName));
 
     }
 

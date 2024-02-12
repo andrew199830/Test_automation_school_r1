@@ -43,7 +43,6 @@ public class TranslatorTest {
                 TranslatePage.translaTextInput.setValue(originalText); // Set original text
                 Selenide.sleep(10000); // Wait for translate
                 TranslatePage.translateTextOutput.shouldHave(text(expectedTranslation));
-
        }
     }
 
