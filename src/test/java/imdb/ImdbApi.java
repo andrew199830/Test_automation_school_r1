@@ -85,54 +85,7 @@ public class ImdbApi {
         }
 
 
-    }  // method for parcing year
+    }  // method for parsing year
 
 
-
-//    public LinkedHashMap<String, String> getTopChart() throws IOException {
-//
-//            var htmlString = getTopChartResponse().string();
-//            var document = Jsoup.parse(htmlString);
-//            var ipcTitleElements = document.select(".ipc-title");
-//            var ratingElements = document.select(".cli-ratings-container");
-//            var ratingList = new ArrayList<String>();
-//            var allFilms = new LinkedHashMap<String, String>();
-////            Film film = new Film();
-//
-//
-//            for (Element ipcTitleElement : ipcTitleElements) {
-//                var aTag = ipcTitleElement.select("a").first();
-//
-//                if (aTag != null) {
-//                    var href = aTag.attr("href");
-//                    var h3Text = aTag.select("h3").text();
-//                    var link = ImdbRestClient.BASE_URL + href;
-////                    film.setFilmLink(link);
-////                    film.setFilmName(h3Text);
-////                List<String> filmDetails = new ArrayList<>();
-////                filmDetails.add(link);
-////                allFilms.put(h3Text, link);
-//                }
-//            }
-//
-//
-//            for (Element ratingElement : ratingElements) {
-//                var spanTag = ratingElement.select("span").first();
-//
-//                if (spanTag != null) {
-//                    var rating = spanTag.attr("aria-label");
-//                    ratingList.add(rating.replaceAll("[^\\d.]", ""));
-////                    film.setRating(rating);
-//                }
-//
-//            }
-//            System.out.println(ratingList);
-//
-//        return allFilms;
-//
-//    }
-//
-//    public List<Map.Entry<String, String>> getTop100Films() throws IOException {
-//        return new ArrayList<>(getTopChart().entrySet()).stream().limit(100).toList();
-//    }
 }
